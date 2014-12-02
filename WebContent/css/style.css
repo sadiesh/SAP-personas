@@ -1,0 +1,123 @@
+font-face {
+    font-family:personas font;
+    src: url(WebContent/css/font/RobotoCondensed-Regular.ttf);
+    src:url(WebContent/css/font/RobotoCondensed-BoldItalic.ttf);
+    src:url(WebContent/css/font/RobotoCondensed-Italic.ttf);
+    src:url(WebContent/css/font/RobotoCondensed-Light.ttf);
+    src:url(WebContent/css/font/RobotoCondensed-Bold.ttf);
+    src:url(WebContent/css/font/Roboto-Medium.ttf);
+    src:url(WebContent/css/font/Roboto-ThinItalic.ttf);
+    src:url(WebContent/css/font/Roboto-Bold.ttf);
+    src:url(WebContent/css/font/Roboto-BlackItalic.ttf);
+}
+
+.sapUiBody {
+    font-family: personas font;
+}
+
+.setChartLayout{
+ height : 96%;
+}
+
+.pieChart {
+	border: solid;
+	border-width: 2px;
+	border-color: lightgray;
+	border-radius: 10px;
+	padding: 3px
+}
+
+.setBackground {
+	background: white;
+}
+
+.panelTitle {
+	width: 100% !important;
+}
+
+.panel {
+	border: solid;
+	margin: 1%;
+	border-width: 2px;
+	border-color: lightgray;
+	border-radius: 10px;
+	width: 50% !important;
+	height: 318px !important;
+}
+
+.objectTitle {
+	background: lightblue;
+}
+
+.addMargin {
+	margin-left: 44%;
+}
+
+.titleElement {
+	font-weight: bold;
+}
+
+.Title {
+	font-weight: bold !important;
+}
+.bottomCols {
+	width: 50%;
+	height: 100%;
+}
+
+.bottomRow {
+	background: white !important;
+}
+#master{
+background : black;
+}
+
+.sapMSLIImgIcon, .sapMSLIImgFirstIcon{
+font-size: 2.85rem;
+color: #fff;
+}
+.sapMListBGSolid .sapMLIB{
+background:#161616 !important;
+height: 55px;
+}
+.sapMSLITitleOnly{
+font-size: 1.525rem !important;	
+color:#fff;
+padding-left:25px;
+}
+#masterlist li{
+height:80px;
+}
+.sapMBar{
+background:#3F92C3 !important;
+
+}
+.appTitle{
+color:#fff 	!important;
+}
+header{
+height:65px;
+}
+#opportunity-Page-title{
+color:#fff;
+}
+#tile-Page-intHeader,#master-page-header{
+height:70px; 
+}
+#tile-Page-title{
+color:#fff;
+font-size: 21px;
+line-height: 60px;
+}
+#masterlist{
+	margin-top:10px;
+}
+th#Opport-table-tblHead0.sapMListTblCell.sapMListTblHeaderCell{
+	background:#2F6D8F;
+}
+.sapMFlexItem{
+	padding:10px;
+	
+}
+
+

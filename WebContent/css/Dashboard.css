@@ -1,0 +1,119 @@
+.dashboardContainer{
+	width:100%;
+	background: none repeat scroll 0 0 #eee;
+}
+
+
+.dashboardTile {
+	width:38%;
+	border-radius:4px;
+	border: 1px solid #ccc;
+}
+
+/*
+.dashboardContainer>sapMFlexItem{
+	width:50%
+}
+*/
+.row1,.row2{
+	width:100%;
+}
+.row1 >.sapMFlexItem:first-child,.row1 >.sapMFlexItem:nth-child(3),.row2 >.sapMFlexItem:first-child, .row2 >.sapMFlexItem:nth-child(3){
+	width:50%
+}
+.row1 .sapMFlexItem:first-child .dashboardTile:first-child, .row2 .sapMFlexItem:first-child .dashboardTile:first-child{
+	float:right;
+}
+.dashboardTile .sapMStdTileNumDiv{
+	margin-right: 90px;
+    margin-top: 40px;
+}
+.dashboardTile .sapMStdTileTitle{
+	 margin-top: -86px;
+	 color: #3780A9;
+	 padding-left:9px;
+}
+
+.taskDashboardTile .sapMStdTileInfo {
+	padding-left: 61%;
+}
+
+.calendarDashboardTile .sapMStdTileInfo {
+	padding-left: 64%;
+}
+.opporDashboardTile .sapMStdTileInfo {
+	padding-left: 50%;
+}
+.leadDashboardTile .sapMStdTileInfo {
+	padding-left: 72%;
+}
+.dashboardTile .sapMStdTileInfo {
+    background: none repeat scroll 0 0 #F8F8F8;
+	border-top:1px solid #ccc;
+	color:#aaa;
+    height: 51px;
+    margin-top: 99px;
+    padding-top: 22px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.dashboardTile .sapMStdTileBottomRow{
+	padding :0;
+}
+
+.dashboardTile  .sapMTileContent{
+	width:100%;
+}
+.dashboardTile .sapMStdTileNumDiv .sapMStdTileNumUnit{
+	text-transform: none;
+    width: 71%;
+	color: #3780A9;
+}
+.taskDashboardTile .sapMStdTileNumDiv .sapMStdTileNumUnit{
+    left: 84%;
+    position: relative;
+    top: -25px;
+}
+.leadDashboardTile .sapMStdTileNumDiv .sapMStdTileNumUnit{
+    left: 80%;
+    position: relative;
+    top: -25px;
+}
+.opporDashboardTile .sapMStdTileNumDiv .sapMStdTileNumUnit{
+	left: 57%;
+    position: relative;
+    top: -25px;
+}
+.calendarDashboardTile .sapMStdTileNumDiv .sapMStdTileNumUnit{
+	left: 96%;
+    position: relative;
+    top: -25px;
+}
+.dashboardTile .sapMStdTileNumDiv .sapMStdTileNum{
+	color: #3780A9;
+	font-size: 83px;
+}
+.arrowLeft{
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fff;
+	position:relative;
+	top: 70px;
+	right: 199%;
+}
+.arrowRight{
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fff;
+	position:relative;
+	top: 70px;
+	right: 1283%;
+}
+.sapMFlexBox {
+	height:100% !important;
+}
